@@ -1,0 +1,14 @@
+{
+  "name": "aws-sam-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "aws:package": "aws cloudformation package --template-file template.yaml --output-template-file template_spec.yaml --s3-bucket my-lambda-fns",
+    "aws:deploy": "aws cloudformation deploy --template-file template_spec.yaml --stack-name aws-sam-example-2 --capabilities CAPABILITY_IAM"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
