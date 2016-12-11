@@ -1,11 +1,16 @@
+## a Serverless Application Model (SAM) example
 
-## A serverless application model (SAM) example
+#### Install dependencies
+```bash
+$ npm install
+```
 
-Install deps
-    $ npm install
+#### package and zip code
+```bash
+$ npm run aws:package
+```
 
-package and zip code
-    $ npm run aws:package
-
-deploy
-    $ npm run aws:deploy
+#### deploy
+```
+$ npm run aws:deploy
+```
