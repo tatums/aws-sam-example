@@ -2,7 +2,7 @@ version: 0.1
 
 environment_variables:
   plaintext:
-    HELOO: "world"
+    SNS_TOPIC_ARN: arn:aws:sns:us-east-1:032177910376:pull-request-builder
 
 phases:
   install:
@@ -18,3 +18,4 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
+      - ./sns.sh
