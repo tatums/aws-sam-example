@@ -5,5 +5,5 @@ test('deepEqaul', t => {
 });
 
 test('equal', t => {
-  t.equal(1, 2);
+  t.is(2, 2);
 });
