@@ -1,5 +1,7 @@
 ## a Serverless Application Model (SAM) example
 
+Playing with codedeploy and codepipeline
+
 #### Install dependencies
 ```bash
 $ npm install
