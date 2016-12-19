@@ -16,6 +16,6 @@ $ npm run aws:package
 
 #### deploy
 
-```
+```bash
 $ npm run aws:deploy
 ```
