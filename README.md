@@ -1,4 +1,4 @@
-## a Serverless Application Model (SAM) example
+## Serverless Application Model (SAM) example
 
 Playing with codedeploy and codepipeline
 
